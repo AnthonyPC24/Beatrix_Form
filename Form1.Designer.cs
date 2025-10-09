@@ -45,9 +45,9 @@
             label2.AutoSize = true;
             label2.Location = new Point(10, 11);
             label2.Name = "label2";
-            label2.Size = new Size(38, 15);
+            label2.Size = new Size(42, 15);
             label2.TabIndex = 1;
-            label2.Text = "label2";
+            label2.Text = "Beatrix";
             // 
             // Form1
             // 
