@@ -41,7 +41,7 @@
             // 
             // btnReunion
             // 
-            btnReunion.Location = new Point(40, 415);
+            btnReunion.Location = new Point(40, 424);
             btnReunion.Name = "btnReunion";
             btnReunion.Size = new Size(155, 45);
             btnReunion.TabIndex = 4;
@@ -50,7 +50,7 @@
             // 
             // btnTareas
             // 
-            btnTareas.Location = new Point(40, 364);
+            btnTareas.Location = new Point(40, 359);
             btnTareas.Name = "btnTareas";
             btnTareas.Size = new Size(155, 45);
             btnTareas.TabIndex = 3;
