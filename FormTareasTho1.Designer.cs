@@ -151,7 +151,6 @@
             comboBoxProyectos.Name = "comboBoxProyectos";
             comboBoxProyectos.Size = new Size(209, 23);
             comboBoxProyectos.TabIndex = 5;
-            comboBoxProyectos.SelectedIndexChanged += comboBoxProyectos_SelectedIndexChanged;
             // 
             // comboBoxTareas
             // 
@@ -160,7 +159,6 @@
             comboBoxTareas.Name = "comboBoxTareas";
             comboBoxTareas.Size = new Size(209, 23);
             comboBoxTareas.TabIndex = 6;
-            comboBoxTareas.SelectedIndexChanged += comboBoxTareas_SelectedIndexChanged;
             // 
             // buttonNuevaTarea
             // 
@@ -214,12 +212,10 @@
             comboBoxUsuarios.Name = "comboBoxUsuarios";
             comboBoxUsuarios.Size = new Size(121, 23);
             comboBoxUsuarios.TabIndex = 8;
-            comboBoxUsuarios.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
             // comboBoxEstadosTarea
             // 
             comboBoxEstadosTarea.FormattingEnabled = true;
-            comboBoxEstadosTarea.Items.AddRange(new object[] { "Pendiente", "En progreso", "En espera", "Revisión", "Completada", "Cancelada" });
             comboBoxEstadosTarea.Location = new Point(435, 22);
             comboBoxEstadosTarea.Name = "comboBoxEstadosTarea";
             comboBoxEstadosTarea.Size = new Size(121, 23);

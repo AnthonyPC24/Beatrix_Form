@@ -15,40 +15,19 @@ namespace Beatrix_Formulario
         public FormTareasTho1()
         {
             InitializeComponent();
+
+            comboBoxEstadosTarea.Items.AddRange(new String[] {
+                "Pendiente", "En Proceso", "En espera","Revisión", "Completada", "Cancelada"
+            });
+
+            comboBoxEstadosTarea.SelectedItem = "Pendiente";
+
+            comboBoxUsuarios.Text = "Usuarios";
         }
 
         private void comboBoxEstadosTarea_SelectedIndexChanged(object sender, EventArgs e)
         {
-            comboBoxEstadosTarea.Text = "Estados";
-
-            if (comboBoxEstadosTarea.Text == "Estados")
-            {
-                MessageBox.Show("Seleccione un estado");
-                return;
-            }
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            comboBoxUsuarios.Text = "Usuarios";
-
-            if (comboBoxUsuarios.Text == "Usuarios")
-            {
-                MessageBox.Show("Seleccione un usuario");
-                return;
-            }
-        }
-
-        private void comboBoxProyectos_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            comboBoxProyectos.Text = "Proyectos";
-
-        }
-
-        private void comboBoxTareas_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            comboBoxTareas.Text = "Tareas";
- 
+            
         }
     }
 }

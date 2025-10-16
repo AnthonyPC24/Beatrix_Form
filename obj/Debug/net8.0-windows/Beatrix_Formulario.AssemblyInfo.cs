@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Beatrix_Formulario")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc24c3735f6592097b048c53ec1fa28e44fa7bc0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4163db306925f1b25dd4759100d8c1358b443e3c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Beatrix_Formulario")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Beatrix_Formulario")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
