@@ -86,7 +86,7 @@
             panelBarraOpciones.Controls.Add(buttonTareas1Tareas);
             panelBarraOpciones.Controls.Add(buttonProyetos1Tareas);
             panelBarraOpciones.Controls.Add(buttonInicioForm1Tareas);
-            panelBarraOpciones.Location = new Point(0, 0);
+            panelBarraOpciones.Location = new Point(-1, 0);
             panelBarraOpciones.Name = "panelBarraOpciones";
             panelBarraOpciones.Size = new Size(219, 450);
             panelBarraOpciones.TabIndex = 2;
@@ -211,7 +211,7 @@
             // comboBoxUsuarios
             // 
             comboBoxUsuarios.FormattingEnabled = true;
-            comboBoxUsuarios.Location = new Point(435, 57);
+            comboBoxUsuarios.Location = new Point(409, 57);
             comboBoxUsuarios.Name = "comboBoxUsuarios";
             comboBoxUsuarios.Size = new Size(121, 23);
             comboBoxUsuarios.TabIndex = 8;
@@ -219,7 +219,7 @@
             // comboBoxEstadosTarea
             // 
             comboBoxEstadosTarea.FormattingEnabled = true;
-            comboBoxEstadosTarea.Location = new Point(435, 22);
+            comboBoxEstadosTarea.Location = new Point(409, 22);
             comboBoxEstadosTarea.Name = "comboBoxEstadosTarea";
             comboBoxEstadosTarea.Size = new Size(121, 23);
             comboBoxEstadosTarea.TabIndex = 7;
