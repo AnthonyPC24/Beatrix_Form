@@ -42,9 +42,10 @@
             // buttonLogin
             // 
             buttonLogin.Font = new Font("Segoe UI", 14F);
-            buttonLogin.Location = new Point(362, 393);
+            buttonLogin.Location = new Point(317, 295);
+            buttonLogin.Margin = new Padding(3, 2, 3, 2);
             buttonLogin.Name = "buttonLogin";
-            buttonLogin.Size = new Size(190, 40);
+            buttonLogin.Size = new Size(166, 30);
             buttonLogin.TabIndex = 0;
             buttonLogin.Text = "Entrar";
             buttonLogin.UseVisualStyleBackColor = true;
@@ -56,9 +57,10 @@
             Logo.BackColor = SystemColors.ButtonHighlight;
             Logo.BackgroundImage = Properties.Resources.Logo;
             Logo.BackgroundImageLayout = ImageLayout.Zoom;
-            Logo.Location = new Point(378, 51);
+            Logo.Location = new Point(325, 38);
+            Logo.Margin = new Padding(3, 2, 3, 2);
             Logo.Name = "Logo";
-            Logo.Size = new Size(165, 160);
+            Logo.Size = new Size(144, 120);
             Logo.TabIndex = 1;
             Logo.TabStop = false;
             Logo.Click += Logo_Click;
@@ -66,43 +68,46 @@
             // txtUsuario
             // 
             txtUsuario.Font = new Font("Segoe UI", 12F);
-            txtUsuario.Location = new Point(341, 284);
+            txtUsuario.Location = new Point(298, 213);
+            txtUsuario.Margin = new Padding(3, 2, 3, 2);
             txtUsuario.Name = "txtUsuario";
-            txtUsuario.Size = new Size(240, 34);
+            txtUsuario.Size = new Size(210, 29);
             txtUsuario.TabIndex = 2;
             // 
             // txtContrasena
             // 
             txtContrasena.Font = new Font("Microsoft Sans Serif", 12F);
-            txtContrasena.Location = new Point(341, 324);
+            txtContrasena.Location = new Point(298, 243);
+            txtContrasena.Margin = new Padding(3, 2, 3, 2);
             txtContrasena.Name = "txtContrasena";
-            txtContrasena.Size = new Size(240, 30);
+            txtContrasena.Size = new Size(210, 26);
             txtContrasena.TabIndex = 3;
             // 
             // labelTitle
             // 
             labelTitle.AutoSize = true;
-            labelTitle.BackColor = SystemColors.Control;
+            labelTitle.BackColor = Color.Transparent;
             labelTitle.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
             labelTitle.ForeColor = SystemColors.ActiveCaptionText;
-            labelTitle.Location = new Point(368, 214);
+            labelTitle.Location = new Point(325, 160);
             labelTitle.Name = "labelTitle";
-            labelTitle.Size = new Size(184, 54);
+            labelTitle.Size = new Size(150, 45);
             labelTitle.TabIndex = 4;
             labelTitle.Text = "BEATRIX";
             labelTitle.Click += label1_Click;
             // 
             // BeatrixForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.background_;
-            ClientSize = new Size(947, 531);
+            ClientSize = new Size(829, 398);
             Controls.Add(labelTitle);
             Controls.Add(txtContrasena);
             Controls.Add(txtUsuario);
             Controls.Add(Logo);
             Controls.Add(buttonLogin);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "BeatrixForm";
             Text = "Beatrix";
             Load += Beatrix_Load;
