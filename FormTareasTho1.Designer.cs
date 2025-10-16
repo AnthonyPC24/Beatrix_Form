@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            buttonInicio = new Button();
-            buttonProyetos = new Button();
+            buttonInicioForm1Tareas = new Button();
+            buttonProyetos1Tareas = new Button();
             panelBarraOpciones = new Panel();
             labelBeatrix = new Label();
-            buttonReuniones = new Button();
-            buttonTareas = new Button();
+            buttonReuniones1Tareas = new Button();
+            buttonTareas1Tareas = new Button();
             textBoxBuscarNombreProyecto = new TextBox();
             buttonBuscarNombreProyecto = new Button();
             comboBoxProyectos = new ComboBox();
@@ -54,40 +54,41 @@
             groupBoxTarea.SuspendLayout();
             SuspendLayout();
             // 
-            // buttonInicio
+            // buttonInicioForm1Tareas
             // 
-            buttonInicio.BackColor = Color.FromArgb(41, 195, 205);
-            buttonInicio.Font = new Font("Montserrat Medium", 8.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            buttonInicio.ForeColor = Color.Black;
-            buttonInicio.Location = new Point(22, 240);
-            buttonInicio.Name = "buttonInicio";
-            buttonInicio.Size = new Size(115, 23);
-            buttonInicio.TabIndex = 0;
-            buttonInicio.Text = "Inicio";
-            buttonInicio.UseVisualStyleBackColor = false;
+            buttonInicioForm1Tareas.BackColor = Color.FromArgb(41, 195, 205);
+            buttonInicioForm1Tareas.Font = new Font("Montserrat Medium", 8.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            buttonInicioForm1Tareas.ForeColor = Color.White;
+            buttonInicioForm1Tareas.Location = new Point(22, 212);
+            buttonInicioForm1Tareas.Name = "buttonInicioForm1Tareas";
+            buttonInicioForm1Tareas.Size = new Size(170, 37);
+            buttonInicioForm1Tareas.TabIndex = 0;
+            buttonInicioForm1Tareas.Text = "Inicio";
+            buttonInicioForm1Tareas.UseVisualStyleBackColor = false;
             // 
-            // buttonProyetos
+            // buttonProyetos1Tareas
             // 
-            buttonProyetos.BackColor = Color.FromArgb(41, 195, 205);
-            buttonProyetos.Font = new Font("Montserrat Medium", 8.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            buttonProyetos.Location = new Point(22, 269);
-            buttonProyetos.Name = "buttonProyetos";
-            buttonProyetos.Size = new Size(115, 23);
-            buttonProyetos.TabIndex = 1;
-            buttonProyetos.Text = "Proyectos";
-            buttonProyetos.UseVisualStyleBackColor = false;
+            buttonProyetos1Tareas.BackColor = Color.FromArgb(41, 195, 205);
+            buttonProyetos1Tareas.Font = new Font("Montserrat Medium", 8.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            buttonProyetos1Tareas.ForeColor = Color.White;
+            buttonProyetos1Tareas.Location = new Point(22, 255);
+            buttonProyetos1Tareas.Name = "buttonProyetos1Tareas";
+            buttonProyetos1Tareas.Size = new Size(170, 37);
+            buttonProyetos1Tareas.TabIndex = 1;
+            buttonProyetos1Tareas.Text = "Proyectos";
+            buttonProyetos1Tareas.UseVisualStyleBackColor = false;
             // 
             // panelBarraOpciones
             // 
             panelBarraOpciones.BackColor = Color.FromArgb(41, 195, 205);
             panelBarraOpciones.Controls.Add(labelBeatrix);
-            panelBarraOpciones.Controls.Add(buttonReuniones);
-            panelBarraOpciones.Controls.Add(buttonTareas);
-            panelBarraOpciones.Controls.Add(buttonProyetos);
-            panelBarraOpciones.Controls.Add(buttonInicio);
+            panelBarraOpciones.Controls.Add(buttonReuniones1Tareas);
+            panelBarraOpciones.Controls.Add(buttonTareas1Tareas);
+            panelBarraOpciones.Controls.Add(buttonProyetos1Tareas);
+            panelBarraOpciones.Controls.Add(buttonInicioForm1Tareas);
             panelBarraOpciones.Location = new Point(0, 0);
             panelBarraOpciones.Name = "panelBarraOpciones";
-            panelBarraOpciones.Size = new Size(165, 450);
+            panelBarraOpciones.Size = new Size(219, 450);
             panelBarraOpciones.TabIndex = 2;
             // 
             // labelBeatrix
@@ -101,32 +102,34 @@
             labelBeatrix.TabIndex = 4;
             labelBeatrix.Text = "Beatrix";
             // 
-            // buttonReuniones
+            // buttonReuniones1Tareas
             // 
-            buttonReuniones.BackColor = Color.FromArgb(41, 195, 205);
-            buttonReuniones.Font = new Font("Montserrat Medium", 8.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            buttonReuniones.Location = new Point(22, 327);
-            buttonReuniones.Name = "buttonReuniones";
-            buttonReuniones.Size = new Size(115, 23);
-            buttonReuniones.TabIndex = 3;
-            buttonReuniones.Text = "Reuniones";
-            buttonReuniones.UseVisualStyleBackColor = false;
+            buttonReuniones1Tareas.BackColor = Color.FromArgb(41, 195, 205);
+            buttonReuniones1Tareas.Font = new Font("Montserrat Medium", 8.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            buttonReuniones1Tareas.ForeColor = Color.White;
+            buttonReuniones1Tareas.Location = new Point(22, 341);
+            buttonReuniones1Tareas.Name = "buttonReuniones1Tareas";
+            buttonReuniones1Tareas.Size = new Size(170, 37);
+            buttonReuniones1Tareas.TabIndex = 3;
+            buttonReuniones1Tareas.Text = "Reuniones";
+            buttonReuniones1Tareas.UseVisualStyleBackColor = false;
             // 
-            // buttonTareas
+            // buttonTareas1Tareas
             // 
-            buttonTareas.BackColor = Color.FromArgb(41, 195, 205);
-            buttonTareas.Font = new Font("Montserrat Medium", 8.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            buttonTareas.Location = new Point(22, 298);
-            buttonTareas.Name = "buttonTareas";
-            buttonTareas.Size = new Size(115, 23);
-            buttonTareas.TabIndex = 2;
-            buttonTareas.Text = "Tareas";
-            buttonTareas.UseVisualStyleBackColor = false;
+            buttonTareas1Tareas.BackColor = Color.FromArgb(41, 195, 205);
+            buttonTareas1Tareas.Font = new Font("Montserrat Medium", 8.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            buttonTareas1Tareas.ForeColor = Color.White;
+            buttonTareas1Tareas.Location = new Point(22, 298);
+            buttonTareas1Tareas.Name = "buttonTareas1Tareas";
+            buttonTareas1Tareas.Size = new Size(170, 37);
+            buttonTareas1Tareas.TabIndex = 2;
+            buttonTareas1Tareas.Text = "Tareas";
+            buttonTareas1Tareas.UseVisualStyleBackColor = false;
             // 
             // textBoxBuscarNombreProyecto
             // 
             textBoxBuscarNombreProyecto.BorderStyle = BorderStyle.FixedSingle;
-            textBoxBuscarNombreProyecto.Location = new Point(190, 30);
+            textBoxBuscarNombreProyecto.Location = new Point(237, 30);
             textBoxBuscarNombreProyecto.Name = "textBoxBuscarNombreProyecto";
             textBoxBuscarNombreProyecto.PlaceholderText = "Buscar";
             textBoxBuscarNombreProyecto.Size = new Size(209, 23);
@@ -138,7 +141,7 @@
             buttonBuscarNombreProyecto.BackgroundImage = Properties.Resources.buscar;
             buttonBuscarNombreProyecto.BackgroundImageLayout = ImageLayout.Zoom;
             buttonBuscarNombreProyecto.FlatAppearance.MouseDownBackColor = Color.FromArgb(41, 195, 205);
-            buttonBuscarNombreProyecto.Location = new Point(405, 29);
+            buttonBuscarNombreProyecto.Location = new Point(452, 29);
             buttonBuscarNombreProyecto.Name = "buttonBuscarNombreProyecto";
             buttonBuscarNombreProyecto.Size = new Size(29, 23);
             buttonBuscarNombreProyecto.TabIndex = 4;
@@ -147,7 +150,7 @@
             // comboBoxProyectos
             // 
             comboBoxProyectos.FormattingEnabled = true;
-            comboBoxProyectos.Location = new Point(190, 68);
+            comboBoxProyectos.Location = new Point(237, 68);
             comboBoxProyectos.Name = "comboBoxProyectos";
             comboBoxProyectos.Size = new Size(209, 23);
             comboBoxProyectos.TabIndex = 5;
@@ -155,7 +158,7 @@
             // comboBoxTareas
             // 
             comboBoxTareas.FormattingEnabled = true;
-            comboBoxTareas.Location = new Point(190, 107);
+            comboBoxTareas.Location = new Point(237, 107);
             comboBoxTareas.Name = "comboBoxTareas";
             comboBoxTareas.Size = new Size(209, 23);
             comboBoxTareas.TabIndex = 6;
@@ -163,7 +166,7 @@
             // buttonNuevaTarea
             // 
             buttonNuevaTarea.BackColor = Color.Transparent;
-            buttonNuevaTarea.Location = new Point(405, 107);
+            buttonNuevaTarea.Location = new Point(452, 107);
             buttonNuevaTarea.Name = "buttonNuevaTarea";
             buttonNuevaTarea.Size = new Size(89, 23);
             buttonNuevaTarea.TabIndex = 7;
@@ -182,9 +185,9 @@
             groupBoxTarea.Controls.Add(labelFecha);
             groupBoxTarea.Controls.Add(textBoxNombreTarea);
             groupBoxTarea.Controls.Add(labelNombreTarea);
-            groupBoxTarea.Location = new Point(190, 146);
+            groupBoxTarea.Location = new Point(235, 146);
             groupBoxTarea.Name = "groupBoxTarea";
-            groupBoxTarea.Size = new Size(598, 282);
+            groupBoxTarea.Size = new Size(553, 282);
             groupBoxTarea.TabIndex = 8;
             groupBoxTarea.TabStop = false;
             // 
@@ -296,11 +299,11 @@
 
         #endregion
 
-        private Button buttonInicio;
-        private Button buttonProyetos;
+        private Button buttonInicioForm1Tareas;
+        private Button buttonProyetos1Tareas;
         private Panel panelBarraOpciones;
-        private Button buttonReuniones;
-        private Button buttonTareas;
+        private Button buttonReuniones1Tareas;
+        private Button buttonTareas1Tareas;
         private Label labelBeatrix;
         private TextBox textBoxBuscarNombreProyecto;
         private Button buttonBuscarNombreProyecto;
