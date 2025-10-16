@@ -288,7 +288,7 @@
             Controls.Add(textBoxBuscarNombreProyecto);
             Controls.Add(panelBarraOpciones);
             Name = "FormTareasTho1";
-            Text = "FormTareasTho1";
+            Text = "Tareas";
             panelBarraOpciones.ResumeLayout(false);
             panelBarraOpciones.PerformLayout();
             groupBoxTarea.ResumeLayout(false);
