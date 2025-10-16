@@ -15,6 +15,14 @@ namespace Beatrix_Formulario
         public FormTareasTho2()
         {
             InitializeComponent();
+            comboBoxProyectoNuevaTarea.Items.Add("Proyectos");
+            comboBoxUsuariosAsignarTareas.Items.Add("Usuarios");
+        }
+
+     
+        private void comboBoxProyectoNuevaTarea_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
