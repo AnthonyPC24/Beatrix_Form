@@ -34,7 +34,7 @@ namespace Beatrix_Formulario
         private void Logo_Click(object sender, EventArgs e)
         {
            
-
+            
         }
     }
 }

@@ -21,5 +21,21 @@ namespace Beatrix_Formulario
         {
 
         }
+
+
+        //comboBox de proyecto 
+        private void comboBoxProyecto_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+
+        //button de cambiar idioma
+        private void btnIdioma_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        
     }
 }
