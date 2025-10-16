@@ -34,6 +34,7 @@
             buttonTareas = new Button();
             buttonProyetos = new Button();
             buttonInicio = new Button();
+            groupBox1 = new GroupBox();
             panelBarraOpciones.SuspendLayout();
             SuspendLayout();
             // 
@@ -106,11 +107,21 @@
             buttonInicio.Text = "Inicio";
             buttonInicio.UseVisualStyleBackColor = false;
             // 
+            // groupBox1
+            // 
+            groupBox1.Location = new Point(193, 69);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(574, 319);
+            groupBox1.TabIndex = 4;
+            groupBox1.TabStop = false;
+            groupBox1.Text = "groupBox1";
+            // 
             // FormTareasTho2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(groupBox1);
             Controls.Add(panelBarraOpciones);
             Name = "FormTareasTho2";
             Text = "FormTareasTho2";
@@ -127,5 +138,6 @@
         private Button buttonTareas;
         private Button buttonProyetos;
         private Button buttonInicio;
+        private GroupBox groupBox1;
     }
 }
