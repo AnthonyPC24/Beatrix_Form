@@ -30,11 +30,13 @@
         {
             button1 = new Button();
             button2 = new Button();
+            panel1 = new Panel();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(21, 233);
+            button1.Location = new Point(36, 233);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 0;
@@ -43,22 +45,32 @@
             // 
             // button2
             // 
-            button2.Location = new Point(21, 262);
+            button2.Location = new Point(36, 262);
             button2.Name = "button2";
             button2.Size = new Size(75, 23);
             button2.TabIndex = 1;
             button2.Text = "button2";
             button2.UseVisualStyleBackColor = true;
             // 
+            // panel1
+            // 
+            panel1.BackColor = SystemColors.ActiveCaption;
+            panel1.Controls.Add(button2);
+            panel1.Controls.Add(button1);
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(165, 450);
+            panel1.TabIndex = 2;
+            // 
             // FormTareasTho1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(panel1);
             Name = "FormTareasTho1";
             Text = "FormTareasTho1";
+            panel1.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -66,5 +78,6 @@
 
         private Button button1;
         private Button button2;
+        private Panel panel1;
     }
 }
